@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "command": "sails",
+    "isShellCommand": true,
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": ["lift"],
+            "isBuildCommand": true,
+            "isWatching": true,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        }
+    ]
+}
